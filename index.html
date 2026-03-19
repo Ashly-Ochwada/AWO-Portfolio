@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ashly W Ochwada | Portfolio</title>
+
+  <meta name="description" content="Portfolio of Ashly Walala Ochwada, a full-stack and geospatial developer building data-driven climate, sustainability, and digital platforms." />
+
+  <!-- FAVICON -->
+  <link rel="icon" href="assets/awo-mark.svg" type="image/svg+xml">
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="background-orb orb-1"></div>
+  <div class="background-orb orb-2"></div>
+  <div class="background-grid"></div>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#home" class="brand">
+        <img src="assets/awo-mark.svg" alt="AWO logo" class="brand-logo" />
+        <div>
+          <span class="brand-name">Ashly W. Ochwada</span>
+          <span class="brand-subtitle">Software · Geospatial · Product</span>
+        </div>
+      </a>
+
+      <button class="menu-toggle" aria-label="Toggle navigation" id="menuToggle">☰</button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+   <section class="hero" id="home" style="padding: 4rem 0 2.5rem;">
+  <div class="container hero-grid" style="display: grid; grid-template-columns: 1.25fr 0.75fr; gap: 1.5rem; align-items: center;">
+
+    <!-- TEXT SIDE -->
+    <div class="hero-copy reveal" style="max-width: 640px;">
+      <p class="eyebrow" style="margin-bottom: 0.5rem;">
+        Geospatial • Full-Stack • Climate Tech
+      </p>
+
+      <h1 style="margin: 0.6rem 0 0.9rem; line-height: 1.02; letter-spacing: -0.05em; max-width: 14ch;">
+        Building elegant digital systems from maps, data, and product thinking.
+      </h1>
+
+      <p class="hero-text" style="font-size: 1.05rem; line-height: 1.75; max-width: 58ch;">
+        I’m <strong>Ashly W Ochwada</strong>, a developer with experience across geospatial engineering,
+        full-stack product development, AI-assisted workflows, backend APIs, and user-centered design.
+        I enjoy turning complex data into platforms people can actually use.
+      </p>
+
+      <div class="hero-actions" style="display: flex; gap: 0.9rem; flex-wrap: wrap; margin: 1.5rem 0 1.2rem;">
+        <a href="#projects" class="btn btn-primary" style="min-height: 50px; padding: 0 1rem;">
+          View Projects
+        </a>
+        <a href="#contact" class="btn btn-secondary" style="min-height: 50px; padding: 0 1rem;">
+          Let’s Connect
+        </a>
+      </div>
+
+      <ul class="quick-stats" style="list-style: none; display: flex; flex-wrap: wrap; gap: 0.6rem; padding: 0; margin: 1.2rem 0 0;">
+        <li style="background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 999px; padding: 0.6rem 0.9rem;">
+          <span style="font-weight: 800;">5+</span> roles across software, GIS, UX and AI
+        </li>
+        <li style="background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 999px; padding: 0.6rem 0.9rem;">
+          <span style="font-weight: 800;">3</span> regions of professional collaboration
+        </li>
+        <li style="background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 999px; padding: 0.6rem 0.9rem;">
+          <span style="font-weight: 800;">1</span> builder mindset
+        </li>
+      </ul>
+    </div>
+
+    <!-- IMAGE SIDE -->
+    <div class="hero-visual reveal delay-1" style="display: flex; justify-content: flex-end;">
+  <div class="profile-shell glass-card" style="padding: 0.8rem; max-width: 540px; width: 100%;">
+    <img 
+      src="assets/Official_2.jpeg" 
+      alt="Stylized profile card for Ashly Walala Ochwada" 
+      class="profile-art"
+      style="border-radius: 20px; width: 100%;"
+    />
+  </div>
+</div>
+
+  </div>
+</section>
+
+   <section class="logo-strip section-small" style="padding: 1.5rem 0;">
+  <div class="container logo-strip-inner" style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 0.75rem;">
+
+    <span class="logo-item" style="display:flex;align-items:center;justify-content:center;min-height:64px;border:1px solid rgba(255,255,255,0.08);border-radius:18px;background:rgba(255,255,255,0.04);color:var(--muted);font-weight:600;transition:all 0.3s ease;">
+      Core zones
+    </span>
+
+    <span class="logo-item" style="display:flex;align-items:center;justify-content:center;min-height:64px;border:1px solid rgba(255,255,255,0.08);border-radius:18px;background:rgba(255,255,255,0.04);color:var(--muted);font-weight:600;transition:all 0.3s ease;">
+      Geospatial Platforms
+    </span>
+
+    <span class="logo-item" style="display:flex;align-items:center;justify-content:center;min-height:64px;border:1px solid rgba(255,255,255,0.08);border-radius:18px;background:rgba(255,255,255,0.04);color:var(--muted);font-weight:600;transition:all 0.3s ease;">
+      Climate Data
+    </span>
+
+    <span class="logo-item" style="display:flex;align-items:center;justify-content:center;min-height:64px;border:1px solid rgba(255,255,255,0.08);border-radius:18px;background:rgba(255,255,255,0.04);color:var(--muted);font-weight:600;transition:all 0.3s ease;">
+      Product Design
+    </span>
+
+    <span class="logo-item" style="display:flex;align-items:center;justify-content:center;min-height:64px;border:1px solid rgba(255,255,255,0.08);border-radius:18px;background:rgba(255,255,255,0.04);color:var(--muted);font-weight:600;transition:all 0.3s ease;">
+      Backend APIs
+    </span>
+
+    <span class="logo-item" style="display:flex;align-items:center;justify-content:center;min-height:64px;border:1px solid rgba(255,255,255,0.08);border-radius:18px;background:rgba(255,255,255,0.04);color:var(--muted);font-weight:600;transition:all 0.3s ease;">
+      AI Workflows
+    </span>
+
+  </div>
+</section>
+
+  <section class="section" id="about" style="padding: 4rem 0;">
+  <div class="container section-grid two-col" style="display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 1.5rem; align-items: center;">
+
+    <div class="reveal" style="max-width: 520px;">
+      <p class="section-label" style="margin-bottom: 0.6rem;">About</p>
+
+      <h2 style="margin: 0.5rem 0 1rem; line-height: 1.05; letter-spacing: -0.04em;">
+        From map-heavy systems to polished product experiences.
+      </h2>
+
+      <img 
+        src="assets/about-visual.svg" 
+        alt="Abstract illustration representing geospatial dashboards and product design"
+        class="section-illustration"
+        style="margin-top: 1rem; border-radius: 20px; border: 1px solid rgba(255,255,255,0.1); max-width: 100%;"
+      />
+    </div>
+
+    <div class="reveal delay-1" style="max-width: 560px;">
+      <p style="line-height: 1.75; margin-bottom: 1rem;">
+        My work sits at the intersection of <strong>software engineering, geospatial analysis, climate-tech,
+        UI/UX design,</strong> and <strong>data visualization</strong>. I care about building systems that are useful,
+        scalable, and clear, even when the underlying data is messy and complex.
+      </p>
+
+      <p style="line-height: 1.75; margin-bottom: 1.2rem;">
+        I’ve contributed to interactive geospatial platforms, environmental decision-support tools, backend services,
+        AI workflows, and mobile-connected systems. I like shipping things that feel thoughtful, not just functional.
+      </p>
+
+      <div class="about-pills" style="display: flex; flex-wrap: wrap; gap: 0.6rem;">
+        <span style="padding: 0.5rem 0.8rem; border-radius: 999px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.05); font-size: 0.9rem;">System Design</span>
+        <span style="padding: 0.5rem 0.8rem; border-radius: 999px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.05); font-size: 0.9rem;">Spatial Analytics</span>
+        <span style="padding: 0.5rem 0.8rem; border-radius: 999px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.05); font-size: 0.9rem;">API Engineering</span>
+        <span style="padding: 0.5rem 0.8rem; border-radius: 999px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.05); font-size: 0.9rem;">UX Research</span>
+        <span style="padding: 0.5rem 0.8rem; border-radius: 999px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.05); font-size: 0.9rem;">Cloud Deployment</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <section class="section" id="experience" style="padding: 4rem 0;">
+  <div class="container" style="max-width: 1100px; margin: 0 auto;">
+
+    <div class="section-heading reveal" style="display:flex; justify-content:space-between; gap:2rem; align-items:end; margin-bottom:2rem; flex-wrap:wrap;">
+      <div>
+        <p class="section-label">Experience</p>
+        <h2 style="margin-top:0.5rem;">Professional journey</h2>
+      </div>
+      <p class="section-intro" style="max-width:420px; line-height:1.7;">
+        Roles that sharpened my stack across software engineering, geospatial systems, AI, UX research, and climate-tech product development.
+      </p>
+    </div>
+
+    <div class="timeline" style="display:grid; gap:1.2rem;">
+
+      <article class="timeline-item glass-card reveal" style="padding:1.4rem; transition:all 0.3s ease; cursor:pointer;">
+        <div class="timeline-date" style="display:inline-flex; padding:0.4rem 0.9rem; border-radius:999px; background:linear-gradient(135deg, #7c9bff, #4be1c5); color:#06111d; font-size:0.85rem; font-weight:700; box-shadow:0 6px 18px rgba(75,225,197,0.25);">
+          Oct 2025 — Mar 2026
+        </div>
+        <h3 style="margin:0.8rem 0 0.3rem;">Fullstack (Geospatial) Web Developer — Consultant</h3>
+        <p class="timeline-company" style="color:#c9d6ef; font-weight:600; margin:0 0 0.8rem;">Space4Good · The Hague, Netherlands</p>
+        <ul style="margin-top:0.6rem; padding-left:1.1rem; line-height:1.75;">
+          <li>Developed interactive geospatial web platforms using Svelte, MapLibre GL, and Deck.gl to support climate risk assessment and environmental decision-making.</li>
+          <li>Integrated satellite imagery and Cloud Optimized GeoTIFF datasets through TiTiler and tile services for high-performance spatial visualization.</li>
+          <li>Built analytical dashboards using custom UI components, filters, AOI selectors, and legends to improve user-driven exploration of environmental data.</li>
+          <li>Implemented cloud-based data pipelines with Azure Blob Storage and automated manifest generation to streamline dataset discovery and access.</li>
+          <li>Developed lightweight backend services using Node.js and serverless patterns to deliver geospatial analytics efficiently.</li>
+          <li>Implemented spatial modeling features using spectral indices, aggregation logic, and classification thresholds to support biodiversity and carbon risk analysis.</li>
+          <li>Contributed to EU-funded digital platform deliverables through technical documentation and architectural descriptions.</li>
+          <li>Collaborated with scientists, designers, and engineers in agile workflows to translate research requirements into production-ready systems.</li>
+          <li>Optimized rendering performance and debugging workflows using profiling tools and testing practices to support scalable deployments.</li>
+        </ul>
+      </article>
+
+      <article class="timeline-item glass-card reveal delay-1" style="padding:1.4rem; transition:all 0.3s ease; cursor:pointer;">
+        <div class="timeline-date" style="display:inline-flex; padding:0.4rem 0.9rem; border-radius:999px; background:linear-gradient(135deg, #7c9bff, #4be1c5); color:#06111d; font-size:0.85rem; font-weight:700; box-shadow:0 6px 18px rgba(75,225,197,0.25);">
+          Sep 2024 — Jun 2025
+        </div>
+        <h3 style="margin:0.8rem 0 0.3rem;">Fullstack Software Developer</h3>
+        <p class="timeline-company" style="color:#c9d6ef; font-weight:600; margin:0 0 0.8rem;">Ardhi Analytics · Berlin, Germany</p>
+        <ul style="margin-top:0.6rem; padding-left:1.1rem; line-height:1.75;">
+          <li>Developed and maintained a full-stack geospatial platform, integrating frontend and backend systems for seamless user interaction and data management.</li>
+          <li>Designed and implemented an interactive frontend with React, enabling users to visualize, analyze, and interpret large geospatial datasets effectively.</li>
+          <li>Built and optimized REST APIs and WebSocket connections using Django and Node.js to support smooth data exchange and real-time updates.</li>
+          <li>Integrated Leaflet, OpenLayers, and Mapbox to improve the rendering and performance of high-resolution spatial data.</li>
+          <li>Developed backend logic for processing geospatial data and supporting formats such as GeoTIFF, CSV, and GeoJSON for export and interaction.</li>
+          <li>Optimized application performance through frontend best practices, database indexing, and caching strategies.</li>
+          <li>Implemented authentication and user management using Clerk to strengthen access control and data integrity.</li>
+          <li>Conducted code reviews, unit testing, and debugging across the stack to improve maintainability, performance, and security.</li>
+        </ul>
+      </article>
+
+      <article class="timeline-item glass-card reveal" style="padding:1.4rem; transition:all 0.3s ease; cursor:pointer;">
+        <div class="timeline-date" style="display:inline-flex; padding:0.4rem 0.9rem; border-radius:999px; background:linear-gradient(135deg, #7c9bff, #4be1c5); color:#06111d; font-size:0.85rem; font-weight:700; box-shadow:0 6px 18px rgba(75,225,197,0.25);">
+          Sep 2024 — Jan 2025
+        </div>
+        <h3 style="margin:0.8rem 0 0.3rem;">UI/UX Designer / UX Researcher</h3>
+        <p class="timeline-company" style="color:#c9d6ef; font-weight:600; margin:0 0 0.8rem;">Ardhi Analytics · Berlin, Germany</p>
+        <ul style="margin-top:0.6rem; padding-left:1.1rem; line-height:1.75;">
+          <li>Designed an intuitive web platform for spatial data visualization and analytics, improving accessibility and usability for researchers and decision-makers.</li>
+          <li>Led UX research through interviews, surveys, and usability testing to identify pain points and improve interaction workflows.</li>
+          <li>Translated research findings into clearer user journeys, more intuitive layouts, and stronger product decisions across the platform experience.</li>
+        </ul>
+      </article>
+
+      <article class="timeline-item glass-card reveal delay-1" style="padding:1.4rem; transition:all 0.3s ease; cursor:pointer;">
+        <div class="timeline-date" style="display:inline-flex; padding:0.4rem 0.9rem; border-radius:999px; background:linear-gradient(135deg, #7c9bff, #4be1c5); color:#06111d; font-size:0.85rem; font-weight:700; box-shadow:0 6px 18px rgba(75,225,197,0.25);">
+          Dec 2023 — Feb 2024
+        </div>
+        <h3 style="margin:0.8rem 0 0.3rem;">AI Operator</h3>
+        <p class="timeline-company" style="color:#c9d6ef; font-weight:600; margin:0 0 0.8rem;">CODX · Spain (Remote)</p>
+        <ul style="margin-top:0.6rem; padding-left:1.1rem; line-height:1.75;">
+          <li>Monitored AI-driven applications to maintain strong performance and improve efficiency in automated decision-making workflows.</li>
+          <li>Assisted in training deep learning models using TensorFlow and PyTorch for image classification and anomaly detection tasks.</li>
+          <li>Handled data preprocessing, cleaning, and augmentation to improve training quality and prediction accuracy.</li>
+          <li>Worked on real-time AI applications, optimizing inference speed through GPU acceleration and model compression techniques.</li>
+          <li>Implemented AI-based automation processes that reduced manual workload and increased operational productivity.</li>
+          <li>Researched AI and machine learning advancements to support improvements in model efficiency and accuracy.</li>
+          <li>Maintained detailed documentation for models, datasets, and benchmarks to improve reproducibility and team collaboration.</li>
+        </ul>
+      </article>
+
+      <article class="timeline-item glass-card reveal" style="padding:1.4rem; transition:all 0.3s ease; cursor:pointer;">
+        <div class="timeline-date" style="display:inline-flex; padding:0.4rem 0.9rem; border-radius:999px; background:linear-gradient(135deg, #7c9bff, #4be1c5); color:#06111d; font-size:0.85rem; font-weight:700; box-shadow:0 6px 18px rgba(75,225,197,0.25);">
+          Jun 2023 — Jul 2024
+        </div>
+        <h3 style="margin:0.8rem 0 0.3rem;">Junior Fullstack Software Developer</h3>
+        <p class="timeline-company" style="color:#c9d6ef; font-weight:600; margin:0 0 0.8rem;">Carble · Utrecht, Netherlands</p>
+        <ul style="margin-top:0.6rem; padding-left:1.1rem; line-height:1.75;">
+          <li>Developed and maintained interactive dashboards using React to visualize Scope 3 carbon emissions and deforestation risks for stakeholder monitoring.</li>
+          <li>Built backend APIs with Python and PostgreSQL, integrating real-time deforestation data from satellite imagery and geospatial analysis models.</li>
+          <li>Worked with remote sensing technologies to extract insights from satellite imagery and improve the accuracy of carbon modeling and deforestation tracking.</li>
+          <li>Optimized database queries and geospatial computations to support efficient processing of supply chain emissions data for reporting and compliance.</li>
+          <li>Developed compliance monitoring tools to help clients align with the EU Deforestation Regulation and track supply chain sustainability.</li>
+          <li>Integrated machine learning models for predictive analysis, enabling future carbon reduction projections and climate action planning support.</li>
+          <li>Designed and implemented reward mechanisms that incentivized deforestation-free supply chains and supported sustainable farming practices.</li>
+          <li>Automated pipelines for geospatial and climate data processing, improving reporting accuracy and reducing manual workload.</li>
+          <li>Collaborated directly with the CTO to define technical strategies and support the integration of sustainability-focused product features.</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+    <section class="section" id="projects" style="padding: 4rem 0;">
+  <div class="container" style="max-width: 1100px; margin: 0 auto;">
+
+    <div class="section-heading reveal" style="display:flex; justify-content:space-between; gap:2rem; align-items:end; margin-bottom:2rem; flex-wrap:wrap;">
+      <div>
+        <p class="section-label">Projects</p>
+        <h2 style="margin-top:0.5rem;">Selected work</h2>
+      </div>
+      <p class="section-intro" style="max-width:420px; line-height:1.7;">
+        Real-world builds and personal systems showcasing execution, design thinking, and full-stack capability.
+      </p>
+    </div>
+
+    <div class="project-grid" style="display:grid; grid-template-columns:repeat(12, 1fr); gap:1.2rem;">
+
+      <!-- HB RESTAURANT -->
+      <article class="project-card glass-card featured reveal" style="grid-column:span 6; overflow:hidden;">
+        <img src="assets/hb_restraunt.png" class="project-image" style="width:100%; aspect-ratio:16/10; object-fit:cover;" />
+        <div style="padding:1.25rem;">
+          <div style="display:inline-flex; margin-bottom:0.7rem; padding:0.42rem 0.7rem; border-radius:999px; background:linear-gradient(135deg, #7c9bff, #4be1c5); color:#06111d; font-size:0.82rem; font-weight:700;">
+            Live Project
+          </div>
+          <h3>HB Restaurant Website</h3>
+          <p>
+            A modern restaurant website showcasing an Italian dining experience in Nairobi. Designed to support
+            bookings, customer engagement, and brand storytelling with a clean, inviting UI.
+          </p>
+          <div style="margin-top:1rem;">
+            <a href="https://ristorantehb.netlify.app/" target="_blank"
+              style="display:inline-block; padding:0.6rem 1rem; border-radius:999px; background:linear-gradient(135deg, #7c9bff, #4be1c5); color:#06111d; font-weight:700;">
+              View Live →
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- VANTIX -->
+      <article class="project-card glass-card featured reveal delay-1" style="grid-column:span 6; overflow:hidden;">
+        <img src="assets/vantix.png" class="project-image" style="width:100%; aspect-ratio:16/10; object-fit:cover;" />
+        <div style="padding:1.25rem;">
+          <div style="display:inline-flex; margin-bottom:0.7rem; padding:0.42rem 0.7rem; border-radius:999px; background:linear-gradient(135deg, #7c9bff, #4be1c5); color:#06111d; font-size:0.82rem; font-weight:700;">
+            Live Project
+          </div>
+          <h3>VAntix Labs</h3>
+          <p>
+            A premium tech and consulting brand platform focused on scalable digital systems, strong positioning,
+            and high-end product presentation for modern businesses.
+          </p>
+          <div style="margin-top:1rem;">
+            <a href="https://vantixlabs.netlify.app/" target="_blank"
+              style="display:inline-block; padding:0.6rem 1rem; border-radius:999px; background:linear-gradient(135deg, #7c9bff, #4be1c5); color:#06111d; font-weight:700;">
+              View Live →
+            </a>
+          </div>
+        </div>
+      </article>
+
+    <!-- LOAN ELIGIBILITY -->
+<article class="project-card glass-card reveal" style="grid-column:span 4;">
+  <img src="assets/LOAN.png" class="project-image" />
+
+  <div style="padding:1.25rem;">
+    <h3>Loan Eligibility Prediction Model</h3>
+
+    <p style="margin-bottom:0.6rem;">
+      A machine learning project focused on predicting whether a loan application is approved or rejected
+      based on applicant financial and demographic data. The model was built using structured datasets,
+      with emphasis on data preprocessing, feature selection, and classification.
+    </p>
+
+    <a href="https://github.com/Ashly-Ochwada/Loan_Eligibility_Prediction_Model.git" target="_blank"
+      style="display:inline-block; padding:0.6rem 1rem; border-radius:999px; background:linear-gradient(135deg, #7c9bff, #4be1c5); color:#06111d; font-weight:700;">
+      View Source Code →
+    </a>
+  </div>
+</article>
+
+     <!-- KAILEYS -->
+<article class="project-card glass-card reveal delay-1" style="grid-column:span 4;">
+  <img src="assets/Kaileys.png" class="project-image" />
+
+  <div style="padding:1.25rem;">
+    <h3>Kaileys Consortium Mobile App</h3>
+
+    <p style="margin-bottom:0.6rem;">
+      Developed and deployed a mobile-connected platform for Kaileys Consortium, enabling users to interact
+      with business services through a seamless digital experience. The system includes backend APIs,
+      secure authentication, and optimized data handling to support real-world usage.
+    </p>
+
+    <p style="font-size:0.8rem; color:#8fa6d8; margin-bottom:1rem;">
+      Live on Google Play Store
+    </p>
+
+    <a href="https://play.google.com/store/apps/details?id=com.kaileys.training&hl=en" target="_blank"
+      style="display:inline-block; padding:0.6rem 1rem; border-radius:999px; background:linear-gradient(135deg, #7c9bff, #4be1c5); color:#06111d; font-weight:700;">
+      View on Play Store →
+    </a>
+  </div>
+</article>
+     <!-- GEO -->
+<article class="project-card glass-card reveal" style="grid-column:span 4;">
+  <img src="assets/ardhi.png" class="project-image" />
+
+  <div style="padding:1.25rem;">
+    <h3>Geospatial Analytics Dashboards</h3>
+
+    <p style="margin-bottom:0.6rem;">
+      Designed and built interactive geospatial dashboards for environmental monitoring and decision support,
+      enabling users to explore complex spatial datasets through intuitive, map-based interfaces.
+    </p>
+
+    <p style="font-size:0.85rem; color:#9fb3d9;">
+      Focused on transforming satellite and environmental data into clear, actionable insights for real-world use.
+    </p>
+  </div>
+</article>
+
+<!-- ARDHI WEBGIS -->
+<article class="project-card glass-card reveal" style="grid-column:span 6;">
+  <img src="assets/ardhi-webgis.png" class="project-image" style="width:100%; aspect-ratio:16/10; object-fit:cover;" />
+
+  <div style="padding:1.25rem;">
+    <h3>Ardhi WebGIS Platform</h3>
+
+    <p style="margin-bottom:0.6rem;">
+      Contributed to the development of an interactive WebGIS platform enabling users to upload,
+      visualize, and analyze geospatial datasets through a dynamic map-based interface.
+    </p>
+
+    <p style="font-size:0.85rem; color:#9fb3d9; margin-bottom:1rem;">
+      Focused on data ingestion, real-time visualization, and intuitive spatial exploration workflows.
+    </p>
+
+    <div style="display:flex; gap:0.6rem; flex-wrap:wrap;">
+      <a href="https://ardhi-app.netlify.app/dashboard" target="_blank"
+        style="display:inline-block; padding:0.55rem 0.9rem; border-radius:999px; background:linear-gradient(135deg, #7c9bff, #4be1c5); color:#06111d; font-weight:700;">
+        View Live App →
+      </a>
+
+      <a href="https://www.ardhi.de/" target="_blank"
+        style="display:inline-block; padding:0.55rem 0.9rem; border-radius:999px; border:1px solid rgba(255,255,255,0.15); color:#cfe3ff;">
+        Visit Company →
+      </a>
+    </div>
+  </div>
+</article>
+
+    </div>
+  </div>
+</section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="section-label">Skills</p>
+            <h2>Core toolkit</h2>
+          </div>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card glass-card reveal">
+            <h3>Frontend</h3>
+            <p>React, Next.js, Svelte, JavaScript, TypeScript, HTML5, CSS3, Tailwind CSS, Bootstrap, Redux, Framer Motion, D3.js</p>
+          </article>
+          <article class="skill-card glass-card reveal delay-1">
+            <h3>Backend</h3>
+            <p>Django, Express.js, Node.js, FastAPI, Firebase, REST APIs, GraphQL, WebSockets, JWT, OAuth2, Celery, Redis</p>
+          </article>
+          <article class="skill-card glass-card reveal">
+            <h3>Geospatial & Data</h3>
+            <p>Mapbox, Leaflet, OpenLayers, GeoTIFF, GeoJSON, Shapefiles, GDAL, Rasterio, remote sensing, spatial analysis, Tableau, Pandas, NumPy</p>
+          </article>
+          <article class="skill-card glass-card reveal delay-1">
+            <h3>AI & ML</h3>
+            <p>TensorFlow, PyTorch, Scikit-learn, MLflow, predictive analytics, computer vision, image classification, anomaly detection</p>
+          </article>
+          <article class="skill-card glass-card reveal">
+            <h3>Cloud & DevOps</h3>
+            <p>AWS, GCP, DigitalOcean, Docker, Kubernetes, Nginx, Terraform, CI/CD pipelines, GitHub Actions, GitLab CI/CD</p>
+          </article>
+          <article class="skill-card glass-card reveal delay-1">
+            <h3>Design & Product</h3>
+            <p>Figma, Adobe XD, Photoshop, Illustrator, design systems, usability testing, A/B testing, user-centered design</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-card glass-card reveal">
+        <div class="contact-copy">
+          <p class="section-label">Contact</p>
+          <h2>Let’s build something impactful.</h2>
+          <p>
+            Open to software, geospatial, climate-tech, product, and data-driven opportunities.
+            Reach out for collaborations, consulting, or neat problem-solving chaos with a polished finish.
+          </p>
+          <div class="contact-links">
+            <a class="btn btn-primary" href="mailto:ashlywochwada@gmail.com">ashlywochwada@gmail.com</a>
+            <a class="btn btn-secondary" href="https://www.linkedin.com/in/ashly-ochwada" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="btn btn-secondary" href="https://github.com/Ashly-Ochwada">GitHub</a>
+          </div>
+        </div>
+        <img src="assets/contact-visual.svg" alt="Abstract contact illustration" class="contact-visual" />
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Ashly W Ochwada. Built with intention and a tiny bit of dramatic flair.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

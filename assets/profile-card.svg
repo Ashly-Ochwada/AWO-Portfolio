@@ -1,0 +1,31 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="1080" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18233E"/>
+      <stop offset="1" stop-color="#0D1528"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="220" y1="130" x2="860" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C9BFF"/>
+      <stop offset="1" stop-color="#4BE1C5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="42" fill="url(#bg)"/>
+  <circle cx="220" cy="180" r="96" fill="#EAF2FF" fill-opacity="0.08"/>
+  <circle cx="980" cy="170" r="72" fill="#4BE1C5" fill-opacity="0.12"/>
+  <rect x="78" y="84" width="1044" height="732" rx="34" stroke="#EAF2FF" stroke-opacity="0.08"/>
+  <rect x="110" y="118" width="420" height="664" rx="28" fill="#0A1323" stroke="#EAF2FF" stroke-opacity="0.08"/>
+  <circle cx="320" cy="318" r="112" fill="url(#accent)" fill-opacity="0.28"/>
+  <path d="M228 486C228 426.353 276.353 378 336 378H352C411.647 378 460 426.353 460 486V562H228V486Z" fill="#EAF2FF" fill-opacity="0.1"/>
+  <circle cx="344" cy="304" r="86" fill="#EAF2FF" fill-opacity="0.82"/>
+  <path d="M258 321C258 268.533 300.533 226 353 226C405.467 226 448 268.533 448 321V321C420 300 385 288 348 288C312 288 278 299 258 321V321Z" fill="#0C162A"/>
+  <rect x="586" y="182" width="468" height="84" rx="22" fill="#121E35"/>
+  <rect x="586" y="304" width="530" height="28" rx="14" fill="#EAF2FF" fill-opacity="0.9"/>
+  <rect x="586" y="350" width="462" height="24" rx="12" fill="#EAF2FF" fill-opacity="0.28"/>
+  <rect x="586" y="390" width="428" height="24" rx="12" fill="#EAF2FF" fill-opacity="0.2"/>
+  <rect x="586" y="468" width="170" height="110" rx="24" fill="#121E35"/>
+  <rect x="778" y="468" width="170" height="110" rx="24" fill="#121E35"/>
+  <rect x="970" y="468" width="114" height="110" rx="24" fill="#121E35"/>
+  <rect x="586" y="628" width="498" height="110" rx="26" fill="#121E35"/>
+  <path d="M618 696L686 644L741 680L814 606L880 658L948 612L1022 694" stroke="url(#accent)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="608" y="204" width="182" height="38" rx="19" fill="url(#accent)"/>
+</svg>

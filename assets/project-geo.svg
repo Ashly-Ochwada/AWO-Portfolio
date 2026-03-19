@@ -1,0 +1,22 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="g" x1="120" y1="90" x2="1040" y2="650" gradientUnits="userSpaceOnUse"><stop stop-color="#7C9BFF"/><stop offset="1" stop-color="#22D3EE"/></linearGradient></defs>
+<rect width="1200" height="760" rx="34" fill="#0D1528"/>
+<rect x="58" y="58" width="1084" height="644" rx="28" fill="#111B31" stroke="#EAF2FF" stroke-opacity="0.08"/>
+<rect x="98" y="98" width="1004" height="80" rx="20" fill="#0A1323"/>
+<circle cx="146" cy="138" r="10" fill="#FF6B6B"/><circle cx="178" cy="138" r="10" fill="#FDBA74"/><circle cx="210" cy="138" r="10" fill="#4BE1C5"/>
+<rect x="98" y="216" width="252" height="446" rx="24" fill="#0A1323"/>
+<rect x="380" y="216" width="682" height="446" rx="24" fill="#0A1323"/>
+<rect x="128" y="252" width="128" height="128" rx="28" fill="url(#g)" fill-opacity="0.22"/>
+<rect x="128" y="408" width="188" height="22" rx="11" fill="#EAF2FF" fill-opacity="0.22"/>
+<rect x="128" y="450" width="156" height="18" rx="9" fill="#EAF2FF" fill-opacity="0.12"/>
+<rect x="128" y="520" width="140" height="48" rx="18" fill="url(#g)"/>
+<path d="M446 558L536 470L628 514L732 380L832 450L928 334L1016 428" stroke="url(#g)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="536" cy="470" r="8" fill="#EAF2FF"/><circle cx="628" cy="514" r="8" fill="#EAF2FF"/><circle cx="732" cy="380" r="8" fill="#EAF2FF"/><circle cx="832" cy="450" r="8" fill="#EAF2FF"/><circle cx="928" cy="334" r="8" fill="#EAF2FF"/>
+<rect x="432" y="254" width="320" height="30" rx="15" fill="#EAF2FF" fill-opacity="0.9"/>
+<rect x="432" y="302" width="210" height="22" rx="11" fill="#EAF2FF" fill-opacity="0.16"/>
+<rect x="432" y="354" width="170" height="116" rx="22" fill="#121E35"/>
+<rect x="622" y="354" width="170" height="116" rx="22" fill="#121E35"/>
+<rect x="812" y="354" width="170" height="116" rx="22" fill="#121E35"/>
+<text x="128" y="620" fill="#EAF2FF" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="700">Geo Dashboards</text>
+<text x="128" y="656" fill="#A8B5D1" font-family="Inter, Arial, sans-serif" font-size="22">Maps + Data</text>
+</svg>
